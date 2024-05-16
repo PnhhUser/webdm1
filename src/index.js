@@ -2,8 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import Router from "./Router";
-import "./index.css";
 import { ChakraProvider } from "@chakra-ui/react";
+import "./index.css";
+import "swiper/css";
+import "aos/dist/aos.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
